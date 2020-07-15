@@ -1,0 +1,19 @@
+#mainGridContainer {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 31.25rem;
+    height: 31.25rem;
+    margin: 0 auto 2rem auto;
+}
+
+.square {
+    border-style: solid;
+    border-width: 0.01rem;
+    border-color: black;
+}
+
+#title {
+    display: grid;
+    justify-content: center;
+}
