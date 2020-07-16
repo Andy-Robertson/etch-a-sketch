@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+    grid-gap: 1px;
     width: 31.25rem;
     height: 31.25rem;
     margin: 0 auto 2rem auto;
@@ -14,6 +15,18 @@
 }
 
 #title {
+    text-align: center
+}
+
+#reset {
     display: grid;
-    justify-content: center;
+    margin: auto;
+    color: blue;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.square:hover {
+    cursor: pointer;
 }
