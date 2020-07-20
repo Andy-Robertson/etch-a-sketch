@@ -1,19 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Codystar&display=swap');
+
+
 :root {
     --grid-sides: 1;
+    background-color: #fdfefe;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#easContainer {
+    text-align: center;
+    background-color: #cf001b;
+    border: 0.2rem ridge;
+    border-color: #f4d03f;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+    color: #f4d03f;
+    padding: 0rem 0.8rem 0.8rem 0.8rem;
+
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 35rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+button {}
+
+#mainGridContainer {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-sides), 1fr);
+    grid-template-columns: repeat(var(--grid-sides), 1fr);
+    grid-gap: 0.1em;
+    width: 35rem;
+    height: 35rem;
+    background-color: #d5d8dc;
+    border-color: black;
+}
+
+#title {
+    margin-top: 4rem;
+    font-family: 'Codystar', cursive;
+    font-size: 3rem;
 }
 
 
-#mainGridContainer {
+@media only screen and (max-width: 600px) {
 
-    display: grid;
+    #mainGridContainer {
+        width: 19rem;
+        height: 19rem;
+    }
 
-    width: 50rem;
-    height: 50rem;
+    #buttonContainer {
+        width: 19rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
 
-    grid-gap: 0.1em;
-    grid-template-rows: repeat(var(--grid-sides), 1fr);
-    grid-template-columns: repeat(var(--grid-sides), 1fr);
-
+    #title {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
 }
 
 ;
