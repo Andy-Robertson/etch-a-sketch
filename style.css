@@ -3,8 +3,7 @@
 
 :root {
     --grid-sides: 1;
-    background-color: #fdfefe;
-
+    background-color: #d5f5e3;
 }
 
 body {
@@ -20,10 +19,10 @@ body {
     border-color: #f4d03f;
     align-items: center;
     border-radius: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     color: #f4d03f;
     padding: 0rem 0.8rem 0.8rem 0.8rem;
-
 }
 
 #buttonContainer {
@@ -37,7 +36,23 @@ body {
     font-size: 1.5rem;
 }
 
-button {}
+button {
+    border: 0.2rem ridge;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+button:hover {
+    border: 0.2rem solid;
+    border-color: #f4d03f;
+    background-color: #f4d03f;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.cell:hover {
+    cursor: crosshair;
+}
 
 #mainGridContainer {
     display: grid;
@@ -60,12 +75,12 @@ button {}
 @media only screen and (max-width: 600px) {
 
     #mainGridContainer {
-        width: 19rem;
+        width: 17rem;
         height: 19rem;
     }
 
     #buttonContainer {
-        width: 19rem;
+        width: 17rem;
         height: 2rem;
         margin-bottom: 1rem;
         margin-top: 2rem;
@@ -75,6 +90,11 @@ button {}
     #title {
         margin-top: 1rem;
         font-size: 2rem;
+    }
+
+    #easContainer {
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
     }
 }
 
