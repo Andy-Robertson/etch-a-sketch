@@ -39,6 +39,8 @@ body {
 button {
     border: 0.2rem ridge;
     border-radius: 0.5rem;
+    border-color: #17202a;
+    color: #17202a;
     align-items: center;
     background-color: #d5d8dc;
 }
