@@ -75,12 +75,12 @@ button:hover {
 @media only screen and (max-width: 600px) {
 
     #mainGridContainer {
-        width: 17.5rem;
+        width: 18.5rem;
         height: 19rem;
     }
 
     #buttonContainer {
-        width: 17.5rem;
+        width: 18.5rem;
         height: 2rem;
         margin-bottom: 1rem;
         margin-top: 2rem;
@@ -93,8 +93,8 @@ button:hover {
     }
 
     #easContainer {
-        margin-top: 1.1rem;
-        margin-bottom: 1.1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
