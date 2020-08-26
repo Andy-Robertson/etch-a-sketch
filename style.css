@@ -6,13 +6,13 @@
     background-color: #d5f5e3;
 }
 
-body {
+.body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#easContainer {
+.easContainer {
     text-align: center;
     background-color: #cf001b;
     border: 0.2rem ridge;
@@ -25,7 +25,7 @@ body {
     padding: 0rem 0.8rem 0.8rem 0.8rem;
 }
 
-#buttonContainer {
+.buttonContainer {
     display: flex;
     justify-content: space-between;
     width: 35rem;
@@ -36,7 +36,7 @@ body {
     font-size: 1.5rem;
 }
 
-button {
+.button {
     border: 0.2rem ridge;
     border-radius: 0.5rem;
     border-color: #17202a;
@@ -45,7 +45,7 @@ button {
     background-color: #d5d8dc;
 }
 
-button:hover {
+.button:hover {
     border: 0.2rem solid;
     border-color: #f4d03f;
     background-color: #f4d03f;
@@ -57,7 +57,7 @@ button:hover {
     cursor: crosshair;
 }
 
-#mainGridContainer {
+.mainGridContainer {
     display: grid;
     grid-template-rows: repeat(var(--grid-sides), 1fr);
     grid-template-columns: repeat(var(--grid-sides), 1fr);
@@ -68,7 +68,7 @@ button:hover {
     border-color: black;
 }
 
-#title {
+.title {
     margin-top: 4rem;
     font-family: 'Codystar', cursive;
     font-size: 3rem;
@@ -77,12 +77,12 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
 
-    #mainGridContainer {
+    .mainGridContainer {
         width: 18.5rem;
         height: 19rem;
     }
 
-    #buttonContainer {
+    .buttonContainer {
         width: 18.5rem;
         height: 2rem;
         margin-bottom: 1rem;
@@ -90,12 +90,12 @@ button:hover {
         font-size: 0.8rem;
     }
 
-    #title {
+    .title {
         margin-top: 1rem;
         font-size: 2rem;
     }
 
-    #easContainer {
+    .easContainer {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
     }
