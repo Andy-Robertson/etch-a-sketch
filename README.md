@@ -1,3 +1,3 @@
 # etch-a-sketch
 
-An etch-a-sketch developed during The Oden Project full-stack curriculum.
+A scalable etch-a-sketch with random pen colour.
